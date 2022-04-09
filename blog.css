@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.blogs {
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+}
+
+.blogcontainer {
+    margin: 5px 104px;
+}
+
+.blogcontainer .blog h3{
+    font-family: monospace;
+    font-size: 20px;
+    margin: 2px 0px;
+}
+
+.blog p{
+    font-family: monospace;
+    margin: 2px 0px;
+    font-size: 15px;
+}
+
+.btn button {
+    margin-left: 10px;
+    font-size: 14px;
+    padding: 6px;
+    border: 2px solid rgb(19, 147, 221);
+    border-radius: 5px;
+    background-color: rgb(19, 147, 221);
+    color: white;
+    margin-top: 15px;
+    transition: .5s ease;
+}

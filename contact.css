@@ -1,0 +1,96 @@
+.form {
+    margin: auto;
+    /* transform: translate(-50%,-70%); */
+    display: flex;
+    flex-direction: column;
+}
+
+.form h1 {
+    margin-bottom: 35px;
+}
+
+.namecontainer{
+    display: flex;
+}
+
+.name1{
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: lighter;
+    margin-left: 0px;
+    margin-top: 5px;
+}
+
+.name2{
+    margin: 0px 5px;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: lighter;
+    margin-top: 5px;
+}
+
+.name .textname{
+    margin-left:5px ;
+}
+
+.email {
+    margin: 10px 0px;
+}
+
+.form-label {
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.emailform {
+    margin: 20px 0px;
+    width: 200px;
+}
+
+.exampleInputEmail1 {
+    width: 300px;
+}
+
+.email .form-text {
+    font-size: 10px;
+    color: darkblue;
+    font-family: monospace;
+}
+
+.check {
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.mb-3 {
+    margin-top: 10px;
+}
+
+.tellaboutyourself{
+    margin-top: 15px;
+}
+.tellaboutyourself input{
+    width: 500px;
+    height: 80px;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    font-family: monospace;
+    font-size: 17px;
+    border: 2px solid rgb(19, 147, 221);
+    border-radius: 5px;
+    background-color: rgb(19, 147, 221);
+    color: white;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: white;
+    color: rgb(19, 147, 221);
+    border: 2px solid rgb(19, 147, 221);
+}
