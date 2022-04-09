@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@800&family=Balsamiq+Sans&family=Mystery+Quest&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Italianno&family=Oswald&family=Source+Code+Pro:ital,wght@1,300&family=Yanone+Kaffeesatz&display=swap');
+
+* {
+  /* overflow-x: hidden; */
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  display: flex;
+}
+
+.main {
+  /* background-color: yellow; */
+  width: 90vw;
+}
+
+
+.infocontainer {
+  /* padding: 0 20px; */
+  /* background: purple; */
+  width: 80vw;
+  height: 500px;
+  margin: 2% auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 90px;
+  align-items: center;
+}
+
+
+
+.devinfo {
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Source Code Pro';
+  
+}
+
+.hello {
+  font-size: 50px;
+  font-family: monospace;
+  margin-left: 10px;
+
+}
+
+.name {
+  font-family: monospace;
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: 10px;
+
+}
+
+.about {
+  font-family: monospace;
+  font-size: 40px;
+  margin-left: 10px;
+
+}
+
+.moreabout {
+  font-family: monospace;
+  font-size: 15px;
+  font-weight: lighter;
+  line-height: 25px;
+  margin-left: 12px;
+  width: 700px;
+  margin-top: 10px;
+}
+
+.btn button{
+  margin-left: 10px;
+  font-size: 20px;
+  padding: 10px;
+  border: 2px solid  rgb(19, 147, 221);
+  border-radius: 5px;
+  background-color: rgb(19, 147, 221);
+  color:  white; 
+  margin-top: 15px;
+  transition: .5s ease;
+  
+}
+
+.btn button:hover{
+  cursor: pointer;
+  background-color: white;
+  color:  rgb(19, 147, 221);
+  border: 2px solid rgb(19, 147, 221);
+  
+}
+
+
+/* .devpic {
+  margin-left: 50px;
+} */
+
+.devpic img {
+  width: 400px;
+  height: 400px;
+  /* transform: translate(75px, 68px); */
+  border-radius: 50%;
+}
+
+.footer-dark {
+  padding: 50px 0;
+  color: #f0f9ff;
+  background-color: #282d32;
+}
+
